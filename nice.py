@@ -8,7 +8,7 @@ from flask import Flask, request
 app = Flask(__name__)
 
 AWESOMENESS = [
-    'hygenically-challenged mole rat', 'dump heap', 'God-fearing failure', 'monstrosity', 'disgusting human being', 'wowza', 'oh-so-not-meh',
+    'hygenically-challenged mole rat', 'dump heap', 'God-fearing failure', 'monstrosity', 'disgusting human being',
     'animalistic creep', 'genuinely pathetic moron', 'horse face', 'tubthumping idiot', 'inebriated mess', 'undeserving monster', 'terrible person']
 
 
@@ -68,6 +68,11 @@ def greet_person():
     <html>
       <head>
         <title>A Compliment (heh)</title>
+        <style>
+        h1 {
+        font-family: 'Comic Sans MS';
+        }
+        </style
       </head>
       <body>
        <h1> ************************************************************************************<br>
